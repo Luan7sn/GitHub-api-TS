@@ -16,8 +16,6 @@ class GetFiveOldestCSharpSortedReposService {
 
     const repositories = await this.challengeRepository.getAllRepos()
 
-    console.log(repositories)
-
     return repositories
   }
 }

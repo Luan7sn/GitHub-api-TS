@@ -9,6 +9,7 @@ import 'express-async-errors';
 import AppError from '../../errors/AppError'
 import routes from './routes';
 //import '@shared/container'
+import '../../container'
 import 'module-alias/register';
 
 if (process.env.NODE_ENV !== "production") {
