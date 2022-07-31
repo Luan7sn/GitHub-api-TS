@@ -1,5 +1,6 @@
 import { injectable, inject } from 'tsyringe';
-import IChallengeRepository from '@modules/challenge/repositories/IChallengeRepository';
+//import IChallengeRepository from '@modules/challenge/repositories/IChallengeRepository';
+import IChallengeRepository from '../repositories/IChallengeRepository'
 import IChallenge from '../dtos/IChallenge'
 
 @injectable()

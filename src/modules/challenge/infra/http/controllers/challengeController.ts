@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { container } from 'tsyringe';
-import GetFiveOldestCSharpSortedReposService from '@modules/challenge/services/GetFiveOldestCSharpSortedReposService';
+//import GetFiveOldestCSharpSortedReposService from '@modules/challenge/services/GetFiveOldestCSharpSortedReposService';
+import GetFiveOldestCSharpSortedReposService from '../../../services/GetFiveOldestCSharpSortedReposService'
 
 export default class ChallengeController {
   public async getRepositories(request: Request, response: Response): Promise<Response> {
