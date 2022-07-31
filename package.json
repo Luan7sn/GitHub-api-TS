@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "start": "node .",
+    "tsc": "./node_modules/typescript/bin/tsc",
+    "postinstall": "npm run tsc",
     "dev:server": "ts-node-dev -r tsconfig-paths/register --transpile-only --ignore-watch node_modules src/shared/infra/http/server.ts"
   },
   "author": "Luan",
