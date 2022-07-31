@@ -31,11 +31,11 @@ class GetFiveOldestCSharpSortedReposService {
       }
     })
 
-    /* let oldestCSharpRepositories = [] as IChallenge[]
+    let oldestCSharpRepositories = [] as IChallenge[]
 
     for(let i = 0; i < 5; i++){
       oldestCSharpRepositories.push(sortedCSharpRepositories[i])
-    } */
+    }
 
     return sortedCSharpRepositories
   }
