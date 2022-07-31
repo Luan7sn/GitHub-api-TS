@@ -1,1 +1,1 @@
-declare module '@formio/react'; 
+declare module 'cors'; 
