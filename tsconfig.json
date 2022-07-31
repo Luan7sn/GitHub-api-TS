@@ -18,5 +18,10 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "forceConsistentCasingInFileNames": true
-  }
+  },
+  "exclude": [
+    "./plugins/**/*",
+    "./typings/**/*",
+    "./built/**/*" // This is what fixed it!
+  ]
 }
