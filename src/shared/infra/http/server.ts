@@ -5,8 +5,8 @@ import express, { Request, Response, NextFunction } from 'express';
 //import cors from 'cors';
 import { errors } from 'celebrate';
 import 'express-async-errors';
-/* import AppError from '@shared/errors/AppError'; */
-import AppError from '../../errors/AppError'
+import AppError from '@shared/errors/AppError';
+//import AppError from '../../errors/AppError'
 import routes from './routes';
 import '@shared/container'
 import 'module-alias/register';
