@@ -8,7 +8,6 @@ import 'express-async-errors';
 import AppError from '@shared/errors/AppError';
 import routes from './routes';
 import '@shared/container'
-declare module 'cors';
 const cors = require('cors')
 
 const app = express();
