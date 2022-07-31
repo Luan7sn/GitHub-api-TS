@@ -10,6 +10,10 @@
     "dev:server": "ts-node-dev -r tsconfig-paths/register --transpile-only --ignore-watch node_modules src/shared/infra/http/server.ts",
     "deploy": "git add . && git commit -m Heroku && git push && git push heroku main"
   },
+  "_moduleAliases": {
+    "@modules": "dist/modules",
+    "@shared": "dist/shared"
+  },
   "author": "Luan",
   "license": "ISC",
   "dependencies": {
@@ -23,6 +27,7 @@
     "express-async-errors": "^3.1.1",
     "helmet": "5.0.2",
     "jsonwebtoken": "^8.5.1",
+    "module-alias": "^2.2.2",
     "pg": "^8.7.3",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.5.6",
