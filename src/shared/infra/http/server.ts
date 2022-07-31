@@ -8,7 +8,7 @@ import 'express-async-errors';
 import AppError from '@shared/errors/AppError';
 import routes from './routes';
 import '@shared/container'
-require('module-alias/register')
+import 'module-alias/register';
 
 const cors = require('cors')
 
