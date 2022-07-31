@@ -3,7 +3,7 @@
 node_modules/
 build/
 temp/
-dist
+dist/
 tmp/*
 !tmp/.gitkeep
 .env
